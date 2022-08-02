@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const EventSchema = new mongoose.Schema(
+const EventCenterSchema = new mongoose.Schema(
     {
         eventcentername: {
             type: String,

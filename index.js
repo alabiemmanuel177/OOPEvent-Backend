@@ -23,11 +23,11 @@ mongoose
   .then(console.log("Connected to MongoDB"))
   .catch((err) => console.log(err));
 
-app.use("/api/auth", authRoute);
-app.use("/api/users", userRoute);
-app.use("/api/admins", adminRoute);
-app.use("/api/bookings", bookingRoute);
-app.use("/api/eventcenters", eventcenterRoute);
+app.use("/api/Auth", authRoute);
+app.use("/api/Users", userRoute);
+app.use("/api/Admins", adminRoute);
+app.use("/api/Bookings", bookingRoute);
+app.use("/api/Eventcenters", eventcenterRoute);
 
 app.get("/", (req, res) => {
   res.send("Hello World!");

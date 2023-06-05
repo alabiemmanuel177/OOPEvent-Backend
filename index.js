@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-const port = process.env.PORT || 7000;
+const port = process.env.PORT || 7150;
 
 mongoose
   .connect(process.env.MONGO_URL)

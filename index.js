@@ -4,11 +4,11 @@ const app = express();
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
 const cors = require("cors");
-const authRoute = require("./routes/auth");
-const userRoute = require("./routes/user");
-const adminRoute = require("./routes/admin");
-const bookingRoute = require("./routes/booking");
-const eventcenterRoute = require("./routes/eventcenter");
+const authRoute = require("./routes/Auth");
+const userRoute = require("./routes/User");
+const adminRoute = require("./routes/Admin");
+const bookingRoute = require("./routes/Booking");
+const eventcenterRoute = require("./routes/Eventcenter");
 const bodyParser = require("body-parser");
 
 dotenv.config();

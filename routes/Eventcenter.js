@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const Eventcenter = require("../models/Eventcenter");
+const Eventcenter = require("../models/EventCenter");
 
 //CREATE EVENTCENTER
 router.post("/", async (req, res) => {
